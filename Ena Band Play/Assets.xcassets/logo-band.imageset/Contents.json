@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Rede_Bandeirantes_logo_2011.svg 1.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Rede_Bandeirantes_logo_2011.svg.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Rede_Bandeirantes_logo_2011.svg 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,18 +1,22 @@
 {
   "images" : [
     {
+      "filename" : "ena-play-bg-ico@x1.jpeg",
       "idiom" : "tv",
       "scale" : "1x"
     },
     {
+      "filename" : "ena-play-bg-ico.jpeg",
       "idiom" : "tv",
       "scale" : "2x"
     },
     {
+      "filename" : "ena-play-bg-ico@x1 1.jpeg",
       "idiom" : "tv-marketing",
       "scale" : "1x"
     },
     {
+      "filename" : "ena-play-bg-ico 1.jpeg",
       "idiom" : "tv-marketing",
       "scale" : "2x"
     }

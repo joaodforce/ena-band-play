@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85BA9C50293A351A00DA04E4 /* Ena_PlayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BA9C4F293A351A00DA04E4 /* Ena_PlayApp.swift */; };
+		85BA9C52293A351A00DA04E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BA9C51293A351A00DA04E4 /* ContentView.swift */; };
+		85BA9C54293A351B00DA04E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85BA9C53293A351B00DA04E4 /* Assets.xcassets */; };
+		85BA9C57293A351B00DA04E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85BA9C56293A351B00DA04E4 /* Preview Assets.xcassets */; };
 		85D1532528DBBE7700C845FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D1532428DBBE7700C845FD /* AppDelegate.swift */; };
 		85D1532728DBBE7700C845FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D1532628DBBE7700C845FD /* ViewController.swift */; };
 		85D1532A28DBBE7700C845FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85D1532828DBBE7700C845FD /* Main.storyboard */; };
@@ -15,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		85BA9C4D293A351900DA04E4 /* Ena Play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ena Play.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85BA9C4F293A351A00DA04E4 /* Ena_PlayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ena_PlayApp.swift; sourceTree = "<group>"; };
+		85BA9C51293A351A00DA04E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		85BA9C53293A351B00DA04E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85BA9C56293A351B00DA04E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		85D1532128DBBE7700C845FD /* Ena Band Play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ena Band Play.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85D1532428DBBE7700C845FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85D1532628DBBE7700C845FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +33,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		85BA9C4A293A351900DA04E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		85D1531E28DBBE7700C845FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -34,10 +50,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85BA9C4E293A351A00DA04E4 /* Ena Play */ = {
+			isa = PBXGroup;
+			children = (
+				85BA9C4F293A351A00DA04E4 /* Ena_PlayApp.swift */,
+				85BA9C51293A351A00DA04E4 /* ContentView.swift */,
+				85BA9C53293A351B00DA04E4 /* Assets.xcassets */,
+				85BA9C55293A351B00DA04E4 /* Preview Content */,
+			);
+			path = "Ena Play";
+			sourceTree = "<group>";
+		};
+		85BA9C55293A351B00DA04E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				85BA9C56293A351B00DA04E4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		85D1531828DBBE7700C845FD = {
 			isa = PBXGroup;
 			children = (
 				85D1532328DBBE7700C845FD /* Ena Band Play */,
+				85BA9C4E293A351A00DA04E4 /* Ena Play */,
 				85D1532228DBBE7700C845FD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				85D1532128DBBE7700C845FD /* Ena Band Play.app */,
+				85BA9C4D293A351900DA04E4 /* Ena Play.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +102,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		85BA9C4C293A351900DA04E4 /* Ena Play */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85BA9C5A293A351B00DA04E4 /* Build configuration list for PBXNativeTarget "Ena Play" */;
+			buildPhases = (
+				85BA9C49293A351900DA04E4 /* Sources */,
+				85BA9C4A293A351900DA04E4 /* Frameworks */,
+				85BA9C4B293A351900DA04E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ena Play";
+			productName = "Ena Play";
+			productReference = 85BA9C4D293A351900DA04E4 /* Ena Play.app */;
+			productType = "com.apple.product-type.application";
+		};
 		85D1532028DBBE7700C845FD /* Ena Band Play */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85D1533228DBBE7900C845FD /* Build configuration list for PBXNativeTarget "Ena Band Play" */;
@@ -89,9 +143,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1400;
+				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
+					85BA9C4C293A351900DA04E4 = {
+						CreatedOnToolsVersion = 14.1;
+					};
 					85D1532028DBBE7700C845FD = {
 						CreatedOnToolsVersion = 14.0;
 					};
@@ -111,11 +168,21 @@
 			projectRoot = "";
 			targets = (
 				85D1532028DBBE7700C845FD /* Ena Band Play */,
+				85BA9C4C293A351900DA04E4 /* Ena Play */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		85BA9C4B293A351900DA04E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85BA9C57293A351B00DA04E4 /* Preview Assets.xcassets in Resources */,
+				85BA9C54293A351B00DA04E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		85D1531F28DBBE7700C845FD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -129,6 +196,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		85BA9C49293A351900DA04E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85BA9C52293A351A00DA04E4 /* ContentView.swift in Sources */,
+				85BA9C50293A351A00DA04E4 /* Ena_PlayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		85D1531D28DBBE7700C845FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -160,6 +236,68 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		85BA9C58293A351B00DA04E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ena Play/Preview Content\"";
+				DEVELOPMENT_TEAM = PS4B7DN425;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joaodforce.Ena-Play";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85BA9C59293A351B00DA04E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ena Play/Preview Content\"";
+				DEVELOPMENT_TEAM = PS4B7DN425;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joaodforce.Ena-Play";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		85D1533028DBBE7900C845FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -290,7 +428,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ena-server.Ena-Band-Play";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -315,7 +453,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ena-server.Ena-Band-Play";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -327,6 +465,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		85BA9C5A293A351B00DA04E4 /* Build configuration list for PBXNativeTarget "Ena Play" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85BA9C58293A351B00DA04E4 /* Debug */,
+				85BA9C59293A351B00DA04E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		85D1531C28DBBE7700C845FD /* Build configuration list for PBXProject "Ena Band Play" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
